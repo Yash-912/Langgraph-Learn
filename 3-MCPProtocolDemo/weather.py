@@ -4,7 +4,7 @@ mcp = FastMCP("weather")
 
 @mcp.tool()
 async def get_weather(location: str)-> str:
-    """Get the weather location"""
+    """"Use the get_weather tool to tell me the weather in Mumbai.""""
     return "ITs always raining in Mumbai"
 
 if __name__ =="__main__":
